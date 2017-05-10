@@ -1,6 +1,6 @@
 <?php
 require_once($_SERVER['DOCUMENT_ROOT'] . "/bitrix/modules/main/include/prolog_before.php");
-if(CModule::IncludeModule("iblock"))
+if(CModule::IncludeModule("sale"))
 { 
 	$arFilter = Array(
 		">=DATE_INSERT" => ConvertTimeStamp(time()-(86400*7)),
